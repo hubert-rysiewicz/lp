@@ -1,3 +1,6 @@
+import { menuItems } from "@/lib/sidebar-links";
+import { Menu } from "lucide-react";
+
 export default function DashboardLayout({ children }) {
   return (
     <>
@@ -45,7 +48,7 @@ export default function DashboardLayout({ children }) {
               {/* List item */}
               <li>
                 <button
-                  className="is-drawer-close:tooltip is-drawer-close:tooltip-right"
+                  className="is-drawer-close:tooltip is-drawer-close:tooltip-right px-2 py-2"
                   data-tip="Homepage"
                 >
                   {/* Home icon */}
